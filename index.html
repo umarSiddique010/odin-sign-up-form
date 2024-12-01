@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign up</title>
+  </head>
+  <body>
+    <main>
+      <section class="images">
+        <figure>
+            <div class="wallpaper">
+                <img src="./assests/halie-west.jpg" alt="green wallpaper">
+            </div>
+          <div class="log">
+            <img src="./assests/odin-logo.png" alt="logo" />
+
+          <figcaption class="odin">Odin</figcaption>
+          </div>
+            
+        </figure>
+      </section>
+
+      
+
+      <section class="sign-up">
+        <p class="text-para">
+            This is not a real online service. This is just a project from The Odin
+            Projects.
+          </p>
+        
+        <form>
+            <h1>Sign up</h1>
+          <div class="input-field">
+            <div class="first-name">
+              <label for="first-name">FIRST NAME</label>
+              <br />
+              <input type="text" required id="first-name" minlength="3" />
+            </div>
+            <div class="last-name">
+              <label for="last-name">LAST NAME</label>
+              <br />
+              <input type="text" id="last-name" minlength="3" />
+            </div>
+
+            <div class="email">
+              <label for="email">EMAIL</label>
+              <br />
+              <input type="email" id="email" required minlength="5" />
+            </div>
+
+            <div class="phone-number">
+              <label for="phone-number">PHONE NUMBER</label>
+              <br />
+              <input type="number" required id="phone-number" minlength="10" />
+            </div>
+            <div class="password">
+              <label for="password">PASSWORD</label>
+              <br />
+              <input
+                type="password"
+                required
+                id="password"
+                minlength="4"
+                maxlength="16"
+              />
+            </div>
+            <div class="confirm-password">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <br />
+              <input
+                type="password"
+                id="confirm-password"
+                required
+                minlength="4"
+                maxlength="16"
+              />
+            </div>
+            <p class="password-error"></p>
+          </div>
+ 
+        </form>
+        <button type="submit">Create Account</button>
+        <p class="go-to-login">Already have an account? <a href="#">Login</a></p>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
