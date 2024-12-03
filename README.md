@@ -1,4 +1,4 @@
-# odin_sign_up_form
+# odin-sign-up-form
 
 This project is assignment project from HTML and CSS intermediate section of The Odin Projects. Although the Project is given by Odin but All the Functionality, styles and Structures was originally created by me
 
@@ -37,4 +37,4 @@ This project is assignment project from HTML and CSS intermediate section of The
 - Media queries 
 
 
-## see my work live -> https://umarsiddique010.github.io/odin-sign_up_form/
+## see my work live -> https://umarsiddique010.github.io/odin-sign-up-form/
